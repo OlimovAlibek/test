@@ -1,0 +1,417 @@
+@font-face {
+    font-family: Mulish;
+    src: url(../font/Mulish/Mulish-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: white;
+    font-family: Mulish;
+    font-style: normal;
+}
+
+a:link {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    background-color: transparent;
+    text-decoration: none;
+    color: #1F1534;
+    opacity: 0.5;
+}
+
+a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.header-top {
+    width: 100%;
+    margin: 0 auto;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.uls li {
+    margin-left: 70px;
+}
+
+.uls {
+    /* background-color: darkgrey; */
+}
+
+.header-center {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.header-left {
+    /* background-color: yellow; */
+    width: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text1 {
+    padding-bottom: 180px;
+}
+
+.header-right {
+    /* background-color: green; */
+    width: 700px;
+    height: 700px;
+}
+
+.bigimage {
+    margin-left: 100px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+
+.p1 {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+    mix-blend-mode: normal;
+}
+
+button {
+    background: #458FF6;
+    border-radius: 55px;
+    width: 200px;
+    height: 56px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    color: white;
+}
+
+.services {
+    margin: 0 auto;
+    width: 900px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.bluebig h2 {
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    color: black;
+    mix-blend-mode: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+}
+
+.p2 {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    text-align: center;
+    color: #7D7987;
+    mix-blend-mode: normal;
+}
+
+.black {
+    height: 2px;
+    width: 56px;
+    border-radius: 5px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.list1 {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    /* background-color: grey; */
+    box-shadow: 10px 40px 50px 0px #E5E9F666;
+}
+
+.inside {
+    padding: 30px;
+}
+
+.list-wrapper1,
+.list-wrapper2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.listbutton {
+    height: 56px;
+    width: 200px;
+    border-radius: 55px;
+    background-color: white;
+    color: #458FF6;
+    border-color: #458FF6;
+    margin-left: 570px;
+    margin-bottom: 100px;
+}
+
+.listbutton2 {
+    height: 56px;
+    width: 200px;
+    border-radius: 55px;
+    background-color: white;
+    color: #458FF6;
+    border-color: #458FF6;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+.container,
+header {
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+p {
+    color: #7D7987;
+    mix-blend-mode: normal;
+}
+
+.div1,
+.div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 1200px;
+}
+
+.div2 {
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.rightside {
+    width: 400px;
+    height: 500px;
+    margin-left: 80px;
+}
+
+hr {
+    border: 2px solid black;
+    width: 50px;
+    margin-right: 1500px;
+    border-radius: 10px;
+}
+
+.heading11 {
+    font-size: 45px;
+}
+
+.text11 {
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.imgbig {
+    margin-left: 100px;
+}
+
+.leftside {
+    width: 500px;
+    height: 500px;
+    margin-left: 80px;
+}
+
+.bluebig {
+    width: 1120px;
+    height: 325px;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    margin: auto;
+    color: white;
+}
+
+.top {
+    text-align: center;
+}
+
+.rbottom {
+    display: flex;
+    width: 900px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.prof {
+    border-radius: 50%;
+}
+
+.r2 {
+    width: 500px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.r3 {
+    width: 500px;
+}
+
+.r5 {
+    color: white;
+}
+
+.hrr {
+    border: 2px solid black;
+    width: 50px;
+    margin-left: 30px;
+    border-radius: 10px;
+    padding-right: 0px;
+}
+
+.lastcontainer {
+    width: 1120px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.firstdiv {
+    margin: auto;
+    border-radius: 20px;
+    background: #FFFFFF;
+    /* drop shadow */
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+}
+
+.firstdiv img {
+    width: 300px;
+    border-radius: 20px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-left: 20px;
+}
+
+.firstdivtext {
+    width: 255px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.list-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lastcontainer hr {
+    margin-bottom: 70px;
+    margin-left: 550px;
+    background-color: black;
+    border-color: black;
+}
+
+.top hr {
+    margin-left: 550px;
+    background-color: white;
+    border-color: white;
+}
+
+.firstdivtext span {
+    color: blue;
+}
+
+a:visited {
+    color: rgb(5, 58, 172);
+}
+
+.white {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.white span {
+    font-size: 30px;
+    color: #67C3F3
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 127px;
+    height: 41px;
+}
+
+.logoh {
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    color: white;
+}
+
+footer ul {
+    display: block;
+}
+
+footer li {
+    margin-bottom: 15px;
+}
+
+footer p {
+    color: white;
+}
+
+.divtext1 {
+    height: 184px;
+    width: 391px;
+    border-radius: nullpx;
+}
+
+footer h3 {
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+footer p {
+    margin-top: 30px;
+}
